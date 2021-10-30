@@ -17,7 +17,7 @@ module.exports = {
                     json['avatar'] = response['avatar_url'];
                     json['repos'] = [];
 
-                    HttpRequest.get(response['repos_url']).then(repos => {
+                    HttpRequest.get(response['repos_url'] + '?per_page=1000').then(repos => {
                         for (let i = 0; i < repos.length; i++) {
                             // validate the language if it exists
                             if((typeof data.language != 'undefined' && data.language) && repos[i]['language'] != data.language) continue;
