@@ -12,8 +12,8 @@ Cabeçalho da requisição:
 
 Corpo da requisição (json):
 
-|Chave|Valor||
-| -------- | -------- | -------- |-------- | -------- |
-|user|Usuário do GitHub|Obrigatório|
-|language|Linguagem principal do repositório|Opcional|
-|limit|Limite de repositórios|Opcional|
+| Chave | Valor | |
+| --- | --- | --- | --- | --- |
+| user | Usuário do GitHub | Obrigatório |
+| language | Linguagem principal do repositório | Opcional |
+| limit | Limite de repositórios | Opcional |
