@@ -1,0 +1,27 @@
+{
+    "itemType": "application/vnd.lime.document-select+json",
+    "items": [
+        {
+            "header": {
+                "type": "application/vnd.lime.media-link+json",
+                "value": {
+                    "title": "Title",
+                    "text": "This is a first item",
+                    "type": "image/jpeg",
+                    "uri": "http://www.isharearena.com/wp-content/uploads/2012/12/wallpaper-281049.jpg"
+                }
+            }
+        },
+        {
+            "header": {
+                "type": "application/vnd.lime.media-link+json",
+                "value": {
+                    "title": "Title 2",
+                    "text": "This is another item",
+                    "type": "image/jpeg",
+                    "uri": "http://www.freedigitalphotos.net/images/img/homepage/87357.jpg"
+                }
+            }
+        }
+    ]
+}

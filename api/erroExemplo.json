@@ -1,0 +1,16 @@
+{
+    "itemType": "application/vnd.lime.document-select+json",
+    "items": [
+        {
+            "header": {
+                "type": "application/vnd.lime.media-link+json",
+                "value": {
+                    "title": "Ops, não encontramos os desafios",
+                    "text": "No momento os desafios não estão disponíveis, tente mais tarde!",
+                    "type": "image/png",
+                    "uri": "https://img.icons8.com/emoji/256/downcast-face-with-sweat.png"
+                }
+            }
+        }
+    ]
+}
