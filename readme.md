@@ -26,3 +26,5 @@ Método de requisição: POST.
 | message    | Mensagem de erro                 |
 | avatar     | Url da foto de perfil do usuário |
 | repos      | Array com os repositórios        |
+
+# Observação: Além da API, é possível acessar o fluxo conversacional do chatbot na pasta Flow.
