@@ -4,13 +4,13 @@ Para consumir a API é necessário usar a seguinte url: https://take-blip-restap
 
 Método de requisição: POST.
 
-### Cabeçalho da requisição:
+## Cabeçalho da requisição:
 
 | Chave        | Valor            |
 | ---          | ---              |
 | Content-Type | application/json |
 
-### Corpo da requisição (json):
+## Corpo da requisição (json):
 
 | Chave    | Valor                              | Obrigatório |
 | ---      | ---                                |         --- |
@@ -18,7 +18,7 @@ Método de requisição: POST.
 | language | Linguagem principal do repositório | Não         |
 | limit    | Limite de repositórios             | Não         |
 
-### Retornos:
+## Retornos:
 
 | Chave      | Valor                            |
 | ---        | ---                              |
@@ -27,4 +27,4 @@ Método de requisição: POST.
 | avatar     | Url da foto de perfil do usuário |
 | repos      | Array com os repositórios        |
 
-##### Observação: Além da API, é possível acessar o fluxo conversacional do chatbot na pasta Flow.
+### Observação: Além da API, é possível acessar o fluxo conversacional do chatbot na pasta Flow.
