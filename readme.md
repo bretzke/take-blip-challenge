@@ -4,16 +4,16 @@ Para consumir a API é necessário usar a seguinte url: https://take-blip-restap
 
 Método de requisição: POST.
 
-Cabeçalho da requisição:
+### Cabeçalho da requisição:
 
 | Chave        | Valor            |
 | ---          | ---              |
 | Content-Type | application/json |
 
-Corpo da requisição (json):
+### Corpo da requisição (json):
 
-| Chave    | Valor                              | Coluna      |
+| Chave    | Valor                              | Obrigatório |
 | ---      | ---                                |         --- |
-| user     | Usuário do GitHub                  | Obrigatório |
-| language | Linguagem principal do repositório | Opcional    |
-| limit    | Limite de repositórios             | Opcional    |
+| user     | Usuário do GitHub                  | Sim         |
+| language | Linguagem principal do repositório | Não         |
+| limit    | Limite de repositórios             | Não         |
