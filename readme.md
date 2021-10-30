@@ -6,9 +6,9 @@ Método de requisição: POST.
 
 Cabeçalho da requisição:
 
-|Chave|Valor|
-| -------- | -------- | -------- |-------- | -------- |
-|Content-Type|application/json|
+| Chave | Valor |
+| --- | --- |
+| Content-Type | application/json |
 
 Corpo da requisição (json):
 
