@@ -6,14 +6,14 @@ Método de requisição: POST.
 
 Cabeçalho da requisição:
 
-| Chave | Valor |
-| --- | --- |
+| Chave        | Valor            |
+| ---          | ---              |
 | Content-Type | application/json |
 
 Corpo da requisição (json):
 
-| Chave | Valor | Coluna |
-| --- | --- | --- | --- | --- |
-| user | Usuário do GitHub | Obrigatório |
-| language | Linguagem principal do repositório | Opcional |
-| limit | Limite de repositórios | Opcional |
+| Chave    | Valor                              | Coluna      |
+| ---      | ---                                |         --- |
+| user     | Usuário do GitHub                  | Obrigatório |
+| language | Linguagem principal do repositório | Opcional    |
+| limit    | Limite de repositórios             | Opcional    |
