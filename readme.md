@@ -17,3 +17,12 @@ Método de requisição: POST.
 | user     | Usuário do GitHub                  | Sim         |
 | language | Linguagem principal do repositório | Não         |
 | limit    | Limite de repositórios             | Não         |
+
+### Retornos:
+
+| Chave      | Valor                            |
+| ---        | ---                              |
+| statusCode | 404 ou 200                       |
+| message    | Mensagem de erro                 |
+| avatar     | Url da foto de perfil do usuário |
+| repos      | Array com os repositórios        |
